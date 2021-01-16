@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/dienstplaner-client/build/
+/dienstplaner-client/build/classes/java/main/
+/dienstplaner-model/build/
+/dienstplaner-model/build/classes/java/main/
+/jfxtras-agenda/build/
+/jfxtras-agenda/build/classes/java/main/
+/.idea/
+/dienstplan.json

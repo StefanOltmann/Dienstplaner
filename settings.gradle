@@ -1,0 +1,4 @@
+rootProject.name = 'Dienstplaner'
+include ':dienstplaner-client'
+include ':dienstplaner-model'
+include ':jfxtras-agenda'

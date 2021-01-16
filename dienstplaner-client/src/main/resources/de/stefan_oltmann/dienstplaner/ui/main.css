@@ -1,0 +1,84 @@
+.root{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Roboto Regular";
+}
+
+.ueberschrift {
+    -fx-font-size: 25pt;
+}
+
+.loeschenButton {
+    -fx-background-color: red;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1 );
+}
+
+.speichernButton {
+    -fx-background-color: lightgreen;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1 );
+}
+
+.neuAnlegenButton {
+    -fx-background-color: lightgreen;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5, 0.0, 0, 1 );
+}
+
+.showEinstellungenButton {
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/settings-5.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 32 32;
+    -fx-background-position: center center;
+}
+
+.showEinstellungenButton:hover {
+    -fx-background-color: lightgreen;
+}
+
+.showDienstplanButton {
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/calendar-6.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 32 32;
+    -fx-background-position: center center;
+}
+
+.showDienstplanButton:hover {
+    -fx-background-color: lightgreen;
+}
+
+.showArbeitsbereichButton {
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/list-1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 32 32;
+    -fx-background-position: center center;
+}
+
+.showArbeitsbereichButton:hover {
+    -fx-background-color: lightgreen;
+}
+
+.showMitarbeiterButton {
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/users.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 32 32;
+    -fx-background-position: center center;
+}
+
+.showMitarbeiterButton:hover {
+    -fx-background-color: lightgreen;
+}
+
+.time-slot {
+	-fx-background-color: black, white;
+	-fx-background-insets: 0, 1 1 0 0;
+}
+
+.time-slot:selected {
+	-fx-background-color: blue;
+}

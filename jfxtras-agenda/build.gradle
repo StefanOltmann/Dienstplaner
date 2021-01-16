@@ -1,0 +1,7 @@
+dependencies {
+
+  compile project(':dienstplaner-model')
+
+  compile 'org.jfxtras:jfxtras-controls:8.0-r5'
+
+}

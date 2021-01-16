@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-stylesheet main.css?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane id="mainView" fx:id="mainView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.stefan_oltmann.dienstplaner.ui.MainViewController">
+   <left>
+      <FlowPane id="Navigation" orientation="VERTICAL" prefWidth="50.0" style="-fx-background-color: lightgray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button id="showEinstellungenButton" fx:id="showEinstellungenButton" onAction="#onEinstellungenButtonClicked" prefHeight="50.0" prefWidth="50.0" styleClass="showEinstellungenButton">
+                <tooltip><Tooltip text="Einstellungen" /></tooltip>
+            </Button>
+            <Button id="showDienstplanButton" fx:id="showDienstplanButton" onAction="#onDienstplanButtonClicked" prefHeight="50.0" prefWidth="50.0" styleClass="showDienstplanButton">
+                <tooltip><Tooltip text="Dienstplan" /></tooltip>
+            </Button>
+            <Button id="showArbeitsbereichButton" fx:id="showArbeitsbereichButton" onAction="#onArbeitsbereichButtonClicked" prefHeight="50.0" prefWidth="50.0" styleClass="showArbeitsbereichButton">
+                <tooltip><Tooltip text="Arbeitsbereich" /></tooltip>
+            </Button>
+            <Button id="showMitarbeiterButton" fx:id="showMitarbeiterButton" onAction="#onMitarbeiterButtonClicked" prefHeight="50.0" prefWidth="50.0" styleClass="showMitarbeiterButton">
+                <tooltip><Tooltip text="Mitarbeiter" /></tooltip>
+            </Button>
+         </children>
+      </FlowPane>
+   </left>
+</BorderPane>
