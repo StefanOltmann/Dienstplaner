@@ -8,3 +8,5 @@
 /jfxtras-agenda/build/classes/java/main/
 /.idea/
 /dienstplan.json
+/dienstplaner-client/.settings/
+/dienstplaner-client/bin/
